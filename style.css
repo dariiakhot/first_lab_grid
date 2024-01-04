@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    max-width: 40vw;
+    flex-direction: column;
+}
+
+.item {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+}
+
+.item12345 {
+    display: flex;
+    flex: 5;
+    flex-direction: row;
+    flex-grow: 2;
+}
+
+.item1345 {
+    flex: 3;
+}
+
+.item345 {
+    display: flex;
+    flex-direction: row;
+}
+
+.item45 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.item1 {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ABCDEF;
+    border-left: 1px solid black;
+    align-items: center;
+}
+
+.item2 {
+    background-color: #D0F0C0;
+    flex: 1;
+}
+
+.item3 {
+    background-color: #FFCC99;
+    border-left: 1px solid black;
+    flex: 1;
+    
+}
+
+.item4 {
+    background-color: #FFCC99;
+    height: 15%;
+    font-size: small;
+}
+
+.item5 {
+    background-color: white;
+    height: 85%;
+}
+
+.item6 {
+    display: flex;
+    flex: 3;
+    flex-grow: 1;
+    background-color: #ABCDEF;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    justify-content: flex-end;
+}
+
+.slogan1 {
+    background: white;
+    width: 170px;
+    height: 25px;
+    margin-left: 20px;
+    border: 1px solid black;
+    text-align: end;
+}
+
+.slogan2 {
+    background-color: white;
+    width: 240px;
+    height: 25px;
+    border: 1px solid black;
+    text-align: end;
+    margin-right: 20px;
+}
